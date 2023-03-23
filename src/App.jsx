@@ -2,12 +2,14 @@ import React from "react";
 import MediaCard from "./components/MediaCard";
 import Navbar from "./components/Navbar";
 import { Grid } from "@mui/material";
+import Jsx from "./components/Jsx";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Grid container spacing={3}>
+      <Jsx />
+      {/* <Grid container spacing={3}>
         <Grid item xs={3}>
           <MediaCard />
         </Grid>
@@ -20,7 +22,7 @@ function App() {
         <Grid item xs={3}>
           <MediaCard />
         </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   );
 }
