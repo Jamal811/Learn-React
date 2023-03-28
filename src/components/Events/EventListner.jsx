@@ -8,7 +8,7 @@ const EventListner = () => {
   const bgChange = () => {
     let newBg = "#34495e";
     setBg(newBg);
-    setName("OUCHH!! :stuck_out_tongue: ");
+    setName("OUCHH!! ");
   };
   const bgBack = () => {
     setBg(color);
@@ -16,13 +16,11 @@ const EventListner = () => {
   };
 
   return (
-    <>
-      <div style={{ backgroundColor: bg }}>
-        <button onClick={bgChange} onDoubleClick={bgBack}>
-          {name}
-        </button>
-      </div>
-    </>
+    <div style={{ backgroundColor: bg }}>
+      <button onClick={bgChange} onDoubleClick={bgBack}>
+        {name}
+      </button>
+    </div>
   );
 };
 
