@@ -8,13 +8,15 @@ import Parent from "./components/Parent";
 import Profile from "./components/props/Profile";
 import ParentProduct from "./components/props/ParentProduct";
 import State from "./components/State";
+import EventListner from "./components/Events/EventListner";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <ParentProduct />
-      <State />
+      {/* <Navbar /> */}
+      <EventListner />
+      {/* <ParentProduct />
+      <State /> */}
       {/* <Profile /> */}
       {/* <ClickButton />
       <Parent /> */}
