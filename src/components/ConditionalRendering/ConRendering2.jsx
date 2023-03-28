@@ -10,12 +10,14 @@ const ConRendering2 = () => {
 
   return (
     <div className="app">
-      <Button variant="contained" onClick={load}>
-        Load
-      </Button>
-      <Button variant="contained" onClick={clear}>
-        CLear
-      </Button>
+      <div display="flex" justifyContent="space-between">
+        <Button variant="contained" onClick={load} sx={{ marginRight: "1px" }}>
+          Load
+        </Button>
+        <Button variant="contained" onClick={clear}>
+          CLear
+        </Button>
+      </div>
       {user && (
         <Typography variant="body1" color="initial">
           {user.name}
