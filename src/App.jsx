@@ -11,12 +11,14 @@ import State from "./components/State";
 import EventListner from "./components/Events/EventListner";
 import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
 import ConRendering2 from "./components/ConditionalRendering/ConRendering2";
+import JokeList from "./components/RanderingLists/JokeList";
 
 function App() {
   return (
     <div className="">
       <Navbar />
-      <ConRendering2 />
+      <JokeList />
+      {/* <ConRendering2 /> */}
       {/* <ConditionalRendering /> */}
       {/* <EventListner /> */}
       {/* <ParentProduct />
