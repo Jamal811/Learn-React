@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100vh;
+}
+.app {
+  border: 2px solid rgb(33, 49, 33);
+  border-radius: 12px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.app1 {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  border: 2px solid rgb(62, 128, 62);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+}
+.app1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 200;
+}
