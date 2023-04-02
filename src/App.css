@@ -1,0 +1,14 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #3c3b6e,
+    #5d54a4,
+    #8f78c7,
+    #bda6d9,
+    #f5ecf4
+  );
+}
+h1 {
+  color: white;
+  font-weight: 400;
+}
