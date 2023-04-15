@@ -22,27 +22,29 @@ import BookList from "./components/React-router/BookList";
 import Book from "./components/React-router/Book";
 import NewBook from "./components/React-router/NewBook";
 import BookLayout from "./components/React-router/BookLayout";
+import Main from "./CssModules/Main";
 
 function App() {
   return (
     <div className="">
       {/* <Navbar /> */}
-      <Nav />
-      <Routes>
+      {/* <Nav /> */}
+      <Main />
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         {/* <Route exact path="/books" element={<BookList />} />
         <Route exact path="/books/:id" element={<Book />} />
         <Route exact path="/books/new" element={<NewBook />} /> */}
-        <Route exact path="/books" element={<BookLayout />}>
+      {/* <Route exact path="/books" element={<BookLayout />}>
           <Route index element={<BookList />} />
           <Route path=":id" element={<Book />} />
           <Route path="new" element={<NewBook />} />
-        </Route>
+        </Route> */}
 
-        <Route exact path="*" element={<NotFound />} />
-      </Routes>
+      {/* <Route exact path="*" element={<NotFound />} />
+      </Routes> */}
       {/* <JokeList /> */}
       {/* <ConRendering2 /> */}
       {/* <ConditionalRendering /> */}
