@@ -15,8 +15,8 @@ export default function Footer() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </li>
-            <li>+1-543-123-4567</li>
-            <li>example@huddle.com</li>
+            <li>+923049393318</li>
+            <li>example@jamal.com</li>
           </ul>
           <ul>
             <li>About Us</li>
@@ -33,7 +33,7 @@ export default function Footer() {
           <SocialIcons />
         </Flex>
 
-        <p>&copy; 2021 Huddle. All rights reserved</p>
+        <p>&copy; 2023 Huddle. All rights reserved</p>
       </Container>
     </StyledFooter>
   );
