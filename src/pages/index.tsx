@@ -8,7 +8,6 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useRouter } from "next/router";
 import { motion as m } from "framer-motion";
-
 export default function Home() {
   //Router
 
