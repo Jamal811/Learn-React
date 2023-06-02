@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("D:\React\React-Hook-Form\react-form-hook\src\pexels-sophie-cambridge-13096020.jpg");
+  background-image: url("./pexels-sophie-cambridge-13096020.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,6 @@ body {
   height: 600px;
   background: transparent;
   box-shadow: 3px 4px 10px;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
